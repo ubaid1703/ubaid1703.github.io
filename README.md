@@ -9,4 +9,3 @@ here is some more [info](info.txt)
 I am intersted in *ab initio* molecular dynamics
 **Quantum  Chemistry**
 ![Ammonium Nitrate clusters as a function of size](clusterspic.png)
-<img src="clusterspic.png" alt="A pic" width="200"/>
