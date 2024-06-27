@@ -30,3 +30,34 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+#bio {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#bio-text {
+    max-width: 600px;
+}
+
+#bio-text h1 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
