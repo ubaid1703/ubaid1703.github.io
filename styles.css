@@ -53,6 +53,40 @@ nav ul li a:hover {
     margin-top: 0;
 }
 
+.research-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+.research-section h2 {
+    color: #333;
+}
+
+.research-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.description {
+    flex: 1;
+    padding: 10px;
+}
+
+.media {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.media img, .media video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -62,4 +96,9 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+footer p {
+    margin: 0;
+}
+
 
