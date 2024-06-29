@@ -73,20 +73,11 @@ nav ul li a:hover {
 .research-section h2 {
     color: #333;
     font-size: 2em; /* Larger font size for project titles */
+    margin-bottom: 5px; /* Reduced gap */
+}
+
+.details {
     margin-bottom: 10px;
-}
-
-.department {
-    font-style: italic;
-}
-
-.advisors a {
-    color: #333;
-    text-decoration: none;
-}
-
-.advisors a:hover {
-    text-decoration: underline;
 }
 
 .research-content {
@@ -115,15 +106,23 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.poster-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .poster-link {
     display: block;
-    margin-top: 10px;
-    padding: 10px;
+    margin: 5px 0;
+    padding: 10px 20px;
     background-color: black;
     color: white;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
+    width: auto;
 }
 
 .poster-link:hover {
