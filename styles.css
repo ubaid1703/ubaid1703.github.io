@@ -71,6 +71,11 @@ nav ul li a:hover {
 
 .research-section h2 {
     color: #333;
+    margin-bottom: 5px;
+}
+
+.research-section p {
+    margin: 5px 0;
 }
 
 .research-content {
@@ -121,5 +126,4 @@ footer {
 footer p {
     margin: 0;
 }
-
 
