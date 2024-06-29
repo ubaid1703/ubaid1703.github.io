@@ -31,6 +31,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Styles specific to the homepage */
 #bio {
     display: flex;
     align-items: center;
@@ -60,6 +61,41 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
+/* Styles specific to the research page */
+.research-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.research-section h2 {
+    color: #333;
+}
+
+.research-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.research-content .description {
+    flex: 1;
+    padding: 10px;
+}
+
+.research-content .media {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.research-content .media img, .research-content .media video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -73,6 +109,7 @@ footer {
 footer p {
     margin: 0;
 }
+
 
 
 
