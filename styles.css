@@ -61,6 +61,37 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
+/* Styles for the news section */
+#news {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#news h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#news ul li {
+    margin-bottom: 10px;
+}
+
+#news ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#news ul li a:hover {
+    text-decoration: underline;
+}
+
 /* Styles specific to the research page */
 .research-section {
     padding: 20px;
@@ -149,4 +180,5 @@ footer {
 footer p {
     margin: 0;
 }
+
 
