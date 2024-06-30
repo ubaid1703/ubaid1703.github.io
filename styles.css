@@ -69,6 +69,14 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.research-section:first-of-type {
+    margin-top: 20px;
+}
+
+.research-section + .research-section {
+    margin-top: 0;
+}
+
 .research-section h2 {
     color: #333;
     font-size: 2em; /* Larger font size for project titles */
@@ -149,5 +157,6 @@ footer {
 footer p {
     margin: 0;
 }
+
 
 
