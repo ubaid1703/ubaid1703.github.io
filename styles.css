@@ -61,87 +61,34 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* Styles specific to the research page */
-.research-section {
-    padding: 20px;
-    max-width: 1000px;
-    margin: 10px auto; /* Reduced gap */
-    text-align: center;
+/* Styles for the news section */
+#news {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-.research-section:first-of-type {
-    margin-top: 20px;
+#news h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-.research-section + .research-section {
-    margin-top: 0;
+#news ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.research-section h2 {
-    color: #333;
-    font-size: 2em; /* Larger font size for project titles */
-    margin-bottom: 5px; /* Reduced gap */
+#news ul li {
+    margin-bottom: 10px;
 }
 
-.details {
-    margin-bottom: 5px; /* Reduced gap */
-}
-
-.research-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.research-content .description {
-    flex: 1;
-    padding: 10px;
-    font-size: 1.2em; /* Increased font size */
-    line-height: 1.6; /* Increased line height for readability */
-}
-
-.research-content .media {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-}
-
-.research-content .media img, .research-content .media video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.poster-links {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.poster-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
+#news ul li a {
     text-decoration: none;
-    text-align: center;
-    border-radius: 5px;
-    width: auto;
+    color: #333;
 }
 
-.poster-link:hover {
+#news ul li a:hover {
     text-decoration: underline;
-}
-
-.chemical-formula {
-    font-style: italic;
-}
-
-.subscript {
-    vertical-align: sub;
-    font-size: smaller;
 }
 
 footer {
@@ -157,6 +104,5 @@ footer {
 footer p {
     margin: 0;
 }
-
 
 
