@@ -63,10 +63,12 @@ nav ul li a:hover {
 
 /* Styles for the news section */
 #news {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #news h2 {
@@ -172,13 +174,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
 
 footer p {
     margin: 0;
 }
-
 
