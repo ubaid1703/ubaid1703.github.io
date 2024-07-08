@@ -38,6 +38,7 @@ nav ul li a:hover {
 
 #bio {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 40px 20px;
     max-width: 1200px;
@@ -45,7 +46,8 @@ nav ul li a:hover {
 }
 
 #profile-pic {
-    width: 250px; /* Adjust the width as needed */
+    width: 100%;
+    max-width: 250px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 40px;
     border-radius: 5px;
@@ -118,21 +120,17 @@ nav ul li a:hover {
 
 .research-content {
     display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.research-content .description {
+.research-content .description, .research-content .media {
     flex: 1;
     padding: 10px;
     font-size: 1.2em; /* Increased font size */
     line-height: 1.6; /* Increased line height for readability */
-}
-
-.research-content .media {
-    flex: 1;
-    padding: 10px;
     text-align: center;
 }
 
@@ -185,5 +183,54 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #bio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #profile-pic {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #news ul {
+        width: 100%;
+    }
+
+    .research-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #news {
+        padding: 0 10px;
+    }
+
+    #news h2 {
+        font-size: 1.5em;
+    }
+
+    .research-section h2 {
+        font-size: 1.5em;
+    }
+
+    .research-content {
+        padding: 0 10px;
+    }
 }
 
