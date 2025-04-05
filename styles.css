@@ -11,7 +11,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensures the header stays above other content */
+    z-index: 1000;
 }
 
 nav ul {
@@ -38,16 +38,32 @@ nav ul li a:hover {
 
 #bio {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
+}
+
+#logos {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.institution-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
 }
 
 #profile-pic {
-    width: 250px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 40px;
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
@@ -65,7 +81,7 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* Styles for the news section */
+/* News Section */
 #news {
     max-width: 1200px;
     margin: 20px auto;
@@ -98,22 +114,22 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Styles specific to the research page */
+/* Research Page */
 .research-section {
     padding: 20px;
     max-width: 1000px;
-    margin: 10px auto; /* Reduced gap */
+    margin: 10px auto;
     text-align: center;
 }
 
 .research-section h2 {
     color: #333;
-    font-size: 2em; /* Larger font size for project titles */
-    margin-bottom: 5px; /* Reduced gap */
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
 .details {
-    margin-bottom: 5px; /* Reduced gap */
+    margin-bottom: 5px;
 }
 
 .research-content {
@@ -126,8 +142,8 @@ nav ul li a:hover {
 .research-content .description {
     flex: 1;
     padding: 10px;
-    font-size: 1.2em; /* Increased font size */
-    line-height: 1.6; /* Increased line height for readability */
+    font-size: 1.2em;
+    line-height: 1.6;
 }
 
 .research-content .media {
@@ -136,7 +152,8 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.research-content .media img, .research-content .media video {
+.research-content .media img,
+.research-content .media video {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -175,18 +192,18 @@ nav ul li a:hover {
 
 .youtube-channel {
     text-align: center;
-    margin: 20px 0; /* Adds spacing above and below the section */
+    margin: 20px 0;
 }
 
 .youtube-channel a {
-    font-size: 1.2em; /* Slightly larger text for better visibility */
-    text-decoration: none; /* Removes underline from the link */
-    color: #0073e6; /* Change to your preferred color */
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #0073e6;
 }
 
 .youtube-channel a:hover {
-    text-decoration: underline; /* Adds underline when hovered */
-    color: #005bb5; /* Darker color on hover */
+    text-decoration: underline;
+    color: #005bb5;
 }
 
 footer {
