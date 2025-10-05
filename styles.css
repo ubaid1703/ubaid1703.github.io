@@ -318,3 +318,17 @@ body {
   #logos { gap: 10px; }
   .institution-logo { height: 52px; }
 }
+
+/* Smaller slab image (refined size) */
+.research-content .media img[alt*="Slab model"] {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .research-content .media img[alt*="Slab model"] {
+    max-width: 80%;
+  }
+}
