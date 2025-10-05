@@ -223,15 +223,18 @@ footer {
 
 footer p {
     margin: 0;
-}\n\n/* --- Portrait image tuning for mobile --- */
+}
+
+/* Smaller slab image in research hero (keeps image on right but not too dominant) */
+.research-content .media img.slab { 
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (max-width: 768px) {
-  #profile-pic {
-    width: clamp(160px, 55vw, 240px);
-    margin: 0;
+  .research-content .media img.slab {
+    max-width: 85%;
   }
 }
-@media (max-width: 480px) {
-  #profile-pic {
-    width: clamp(140px, 65vw, 200px);
-  }
-}\n
